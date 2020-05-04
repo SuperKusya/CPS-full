@@ -1,0 +1,10 @@
+@media(min-width: 1440px) {
+    .layout {
+      display: flex;
+      flex-shrink: 0;
+    
+      &__sidebar {
+        flex-shrink: 0;
+      }
+    }
+  }

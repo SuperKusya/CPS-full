@@ -1,0 +1,22 @@
+.main {
+  display: block; //for IE
+  padding-top: 24px;
+  padding-bottom: 40px;
+  
+  & > section {
+    @include separator-horizontal-line;
+  }
+}
+
+@media (min-width: $screen-md) {
+  .main {
+    padding-bottom: 47px;
+  }
+}
+
+@media (min-width: $screen-lg) {
+  .main {
+    padding-top: 42px;
+    padding-bottom: 50px;
+  }
+}

@@ -1,0 +1,32 @@
+.btn-around {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+
+  background-color: $btn-color;
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  filter: opacity(1);
+
+  transition-duration: 0.3s;
+  transition-property: filter;
+
+  appearance: none;
+
+  &:hover {
+    filter: opacity(0.6);
+  }
+
+  img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+  }
+
+  &:hover img {
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+}

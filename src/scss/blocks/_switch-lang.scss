@@ -1,0 +1,25 @@
+.switch-lang {
+  &__lang {
+    margin-right: 7px;
+    padding: 0;
+
+    font-weight: 500;
+    font-size: inherit;
+    font-family: inherit;
+
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+
+    appearance: none;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+    &--active,
+    &:hover {
+      color: $second-text-color;
+    }
+  }
+}
