@@ -2,11 +2,10 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-</head>
+    <title>Webpack 4 Starter</title>
+<link href="style.css" rel="stylesheet"></head>
 <body>
     <div class="layout">
         <header class="header">
@@ -31,8 +30,7 @@
                 </div>
     
                 <div class="header__right">
-                    <button class="header__btn-around btn-around request"       
-                        type="button">
+                    <button class="header__btn-around btn-around request" type="button">
                             <img src="./img/icons/request.svg" alt="оставить заявку">
                     </button>
                     <button class="header__btn-around btn-around status-repair" type="button">
@@ -51,7 +49,7 @@
                         <a class="header__logo logo" href="/">
                             <img src="./img/icons/logo.svg" alt="logo CPS" width="97">
                         </a>
-                        <button class="header__btn-around btn-around ">
+                        <button class="header__btn-around btn-around">
                             <img src="./img/icons/search.svg" alt="иконка поиска">
                         </button>
                     </div>
@@ -92,7 +90,7 @@
                         <button class="sidebar__btn-around btn-around chat" type="button">
                             <img src="./img/icons/chat.svg" alt="обратная связь">
                         </button>
-                        <button class="sidebar__btn-around btn-around profile " type="button">
+                        <button class="sidebar__btn-around btn-around profile" type="button">
                             <img src="./img/icons/user.svg" alt="иконка пользователя">
                         </button>
                     </div>
@@ -162,8 +160,7 @@
                                 </p>
                                 <p>
                                     <span class="services__text-path2">
-                                        Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера</span><span
-                                        class="services__text-path3">что подтверждает большое количество постоянных клиентов.
+                                        Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера</span><span class="services__text-path3">что подтверждает большое количество постоянных клиентов.
                                         Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас
                                         родным и близким.</span>
                                 </p>
@@ -180,9 +177,9 @@
                             Ремонт техники различных брендов
                         </h2>
                         <div class="brand-tech__container slider-target" id="brand-tech">
-                            <!-- Additional required wrapper -->
+                            
                             <div class="brand-tech__list slider-target__list">
-                                <!-- Slides -->
+                                
                                 <div class="brand-tech__item slider-target__item">
                                     <img src="./img/brands/lenovo.png" alt="Lenovo">
                                     <a href="https://www.lenovo.com/" class="link-around" target="_blank"></a>
@@ -236,9 +233,9 @@
                             Ремонт различных видов техники
                         </h2>
                         <div class="repair-tech__container slider-target" id="repair-tech">
-                            <!-- Additional required wrapper -->
+                            
                             <div class="repair-tech__list slider-target__list">
-                                <!-- Slides -->
+                                
                                 <div class="repair-tech__item slider-target__item">
                                     <span class="repair-tech__title">Ремонт ноутбуков</span>
                                     <a href="https://www.lenovo.com/" class="repair-tech__link link-around" target="_blank"></a>
@@ -267,7 +264,7 @@
                         </h2>
                         
                         <div class="price-services__container slider-target">
-                            <!-- Additional required wrapper -->
+                            
                             <div class="price-services__item price-services__titles">
                                 <div class="price-services__service">Ремонтные услуги</div>
                                 <div class="price-services__price">Цена</div>
@@ -275,7 +272,7 @@
                                 <div class="price-services__stub">Заказать</div>
                             </div>
                             <div class="price-services__list slider-target__list">
-                                <!-- Slides -->
+                                
                                 <div class="price-services__item slider-target__item">
                                     <div class="price-services__service">
                                         <div class="price-services__title">Ремонтные услуги</div>
@@ -414,12 +411,12 @@
             <p class="modal__text">
                 Нажимая “отправить”, вы даете согласие на <strong class="modal__warning">обработку персональных данных</strong> и соглашаетесь с нашей <a class="modal__link"><strong class="modal__warning">политикой конфиденциальности</strong></a>
             </p>
-            <button  class="modal__button button" type="submit">отправить</button>
+            <button class="modal__button button" type="submit">отправить</button>
         </form>
         
     </div>
     <div class="mask"></div>
-</body>
+<script type="text/javascript" src="./js/bundle.js"></script></body>
 </html>
 
 
