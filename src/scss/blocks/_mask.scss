@@ -1,4 +1,4 @@
-.mask {
+.mask, .mask--modal {
   position: fixed;
   top: 0;
   right: 0;
@@ -16,4 +16,8 @@
 
     transition: opacity 300ms;
   }
+}
+
+.mask--modal {
+  z-index: 30;
 }
