@@ -3,7 +3,7 @@
 
 Website hosted on GitHub Pages - <a href="https://superkusya.github.io/CPS-full/">CPS</a>
 
-## Webpack Static Site Starter Kit:
+## <a href="https://github.com/jm-program/webpack-static-template">Webpack Static Site Starter Kit</a>
 Features:
 - Babel
 - SCSS
